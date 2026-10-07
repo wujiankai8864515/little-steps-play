@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>利用規約｜フリー無料のBGM素材・音楽素材「甘茶の音楽工房」</title>
+<meta name="keywords" content="音楽素材,ロイヤリティフリー,フリー音楽,RoyaltyFree,音楽,Music,フリーBGM,甘茶の音楽工房" />
+<meta name="description" content="色々なタイプの音楽素材が500曲以上！フリー無料の音楽素材「甘茶の音楽工房」では、WEB、動画、CM、ゲーム等に使えるフリー音楽素材・BGM素材を、無料配布しています。公開中の音楽素材は、商用利用・個人利用を問わず、すべてフリー・無料でご利用いただけます。" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="viewport" content="initial-scale=1.0" />
+<script type="text/javascript">
+</script>
+<!-- 外部CSS読み込み -->
+<link charset="UTF-8" href="./style.css" rel="stylesheet" type="text/css" />
+<!-- /ここまで -->
+</head>
+
+<body>
+
+<div id="container">
+
+<div class="header">
+
+<h1>WEB、動画、ゲーム、イベントに使えるフリー音楽素材・BGM素材が500点以上！フリー無料のBGM素材・音楽素材「甘茶の音楽工房」
+</h1>
+
+<div class="logo">
+<a href="index.html">甘茶の音楽工房</a>
+</div>
+
+</div>
+ 
+<div class="wrapper">
+<div class="content">
+ 
+<div class="l_sidebar">
+
+<div class="side_box">
+<h2>メニュー</h2>
+<ul class="menu">
+<li><a href="index.html">トップ</a></li>
+<li><a href="terms.html">利用規約</a></li>
+<li><a href="about.html">サイト概要</a></li>
+<li><a href="bbs.html">掲示板</a></li>
+</ul>
+</div>
+
+<div class="side_box">
+<h2>イメージから音楽素材を探す</h2>
+<ul class="menu">
+<li><a href="image_akarui.html">明るい</a></li>
+<li><a href="image_comical.html">コミカル</a></li>
+<li><a href="image_oshare.html">おしゃれ</a></li>
+<li><a href="image_honobono.html">ほのぼの</a></li>
+<li><a href="image_iyashi.html">癒し</a></li>
+<li><a href="image_gensouteki.html">幻想的</a></li>
+<li><a href="image_shimijimi.html">しみじみ</a></li>
+<li><a href="image_kanashii.html">悲しい</a></li>
+<li><a href="image_kurai.html">暗い</a></li>
+<li><a href="image_serious.html">シリアス</a></li>
+<li><a href="image_bukimi.html">不気味</a></li>
+<li><a href="image_ayashii.html">怪しい</a></li>
+<li><a href="image_otona.html">大人な雰囲気</a></li>
+<li><a href="image_yuudai.html">雄大</a></li>
+<li><a href="image_hageshii.html">激しい</a></li>
+<li><a href="image_shissoukan.html">疾走感</a></li>
+</ul>
+</div>
+
+<div class="side_box">
+<h2>ジャンルから音楽素材を探す</h2>
+<ul class="menu">
+<li><a href="genre_orchestra.html">オーケストラ</a></li>
+<li><a href="genre_ensemble.html">アンサンブル</a></li>
+<li><a href="genre_piano.html">ピアノ</a></li>
+<li><a href="genre_musicbox.html">オルゴール</a></li>
+<li><a href="genre_minimal.html">現代音楽・ミニマル</a></li>
+<li><a href="genre_hollywood.html">シネマティック</a></li>
+<li><a href="genre_rpg.html">ファンタジー</a></li>
+<li><a href="genre_easylistening.html">イージーリスニング</a></li>
+<li><a href="genre_newage.html">ニューエイジ</a></li>
+<li><a href="genre_asia.html">和風・アジア</a></li>
+<li><a href="genre_healing.html">ヒーリング</a></li>
+<li><a href="genre_ambient.html">アンビエント</a></li>
+<li><a href="genre_jazz.html">ジャズ</a></li>
+<li><a href="genre_pop.html">ポップ</a></li>
+<li><a href="genre_techno.html">テクノ・エレクトロ</a></li>
+<li><a href="genre_darktechno.html">ダークテクノ</a></li>
+<li><a href="genre_soundtrack.html">サウンドトラック</a></li>
+</ul>
+</div>
+
+
+</div>
+ 
+<div class="content_main">
+
+<h3>利用規約</h3>
+
+<div class="headline">音楽素材のご利用規約</div>
+<div class="text_2">
+●公開中の音楽素材は、商用利用、個人利用問わず利用できます。<br />
+●音楽素材は、ウェブ、映像、ゲーム、ラジオなど、何かのBGMとしてお使い下さい。<br />
+●音楽だけを販売したり、2次配布することは禁止です。<br /> 
+●著作権は放棄しておりません。楽曲の著作権は甘茶にあります。<br />
+●作曲者を偽る行為（自分で作った曲のように見せかける行為）は禁止です。<br />
+●楽曲を使用した作品を、JASRACなど著作権管理団体に登録することはできません。<br />
+●ご利用の際に生じたいかなる損害損失に対しても当サイトは一切責任を負いません。
+</div>
+
+<div class="text_box2">
+<div class="headline2">●YouTubeのコンテンツID（Content ID）に登録しないようお願いします。</div>
+当サイトの音楽素材を使用した作品をYouTubeのコンテンツIDに登録することはできません。
+コンテンツID登録されますと、YouTubeで同じ音楽素材を使用しているユーザー様に著作権保護の警告が出てしまいます。
+コンテンツIDで商品管理をしている委託販売サイト、レーベル、企業様も見受けられますので、
+音楽素材を使用した作品を販売、投稿される方は、コンテンツID登録されないよう十分ご配慮お願いします。
+</div>
+
+<div class="headline2">YouTube上での著作権管理に関して</div>
+<div class="text_2">現在、YouTube上での著作権管理を、TRACKS Inc.へ委託しております。
+これに伴い、音楽がメインの動画（作業用BGM動画など）には、TRACKS Inc.を経由して著作権表記を挿入させていただく場合があります。 
+ステータスへの影響はありませんが、この処置により広告が表示される場合がございます。
+ （その点、ご了承いただければBGM動画でのご利用も可能です）
+ また、ポリシー違反の動画に関しても著作権表記を挿入させていただく場合があります。
+</div>
+
+<div class="headline2">著作権表示に関して</div>
+<div class="text_2">
+著作権表示は必須ではありませんが、ご都合のよい箇所にリンクorクレジットしていただけると嬉しいです。
+表記内容はサイト名、作曲者名、URLのいずれか一つでＯＫです。<br />
+●サイト名⇒ 甘茶の音楽工房（英語表記＝Music Atelier Amacha）<br />
+●作曲者⇒ 甘茶（英語表記＝Amacha）<br />
+●URL⇒ https://amachamusic.chagasi.com/<br />
+</div>
+
+<div class="headline2">ダウンロードに関して</div>
+<div class="text_2">
+音楽素材の直リンクでの使用は禁止です。<br />
+音楽素材はダウンロードページよりダウンロードしてお使いください。<br />
+【ダウンロード方法】<br />
+●Windows / 『ダウンロード』を右クリックして「対象をファイルに保存」<br />
+●Mac / contorol+クリックで「リンク先のファイルをダウンロード」<br />
+※ご使用のブラウザによってダウンロード方法は異なります。<br />
+※携帯端末からは一部の機種を除いてダウンロードできません。
+</div>
+
+<div class="headline2">よくある質問と答え</div>
+
+<div class="faq_q">
+Q:使用報告は必要ですか？
+</div>
+<div class="faq_a">
+A:必須ではありませんので、なくても構いません。
+</div>
+
+<div class="faq_q">
+Q:どのような用途に使えますか？
+</div>
+<div class="faq_a">
+A:ウェブ、映像、ゲーム、ラジオ、演劇など、何かのBGMとしてお使い下さい。音楽だけを販売したり、2次配布することは禁止です。
+</div>
+
+<div class="faq_q">
+Q:楽曲をカバーして音楽配信サイト（TuneCore、Spotify等）から配信できますか？
+</div>
+<div class="faq_a">
+A:当サイトの楽曲は音楽配信プラットフォームから配信することはできません。
+カバー曲やサンプリングしたものであっても配信することはできません。
+</div>
+
+<div class="faq_q">
+Q:楽曲の楽譜がほしいのですが・・・
+</div>
+<div class="faq_a">
+A:申し訳ありませんが、楽譜の提供はしておりません。
+</div>
+
+<div class="faq_q">
+Q:加工して使用しても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。テンポやキーの変更、音の付加、フェードイン・フェードアウトなど自由に加工できます。
+ただし、加工後も楽曲の著作権は甘茶にありますので、利用規約の範囲内でご利用ください。
+</div>
+
+<div class="faq_q">
+Q:使用許諾書を発行してもらえますか？
+</div>
+<div class="faq_a">
+A:使用許諾書の発行はしておりません。使用許諾書が不要な範囲でご利用ください。
+</div>
+
+<div class="faq_q">
+Q:コンテスト応募作品のBGMとして利用できますか？
+</div>
+<div class="faq_a">
+A:使用できますが、作品の著作権が主催者に譲渡されてしまうコンクールでは使用できません。 
+なお、音楽コンクールへの応募はできません。
+</div>
+
+<div class="faq_q">
+Q:YouTubeで使用できますか？
+</div>
+<div class="faq_a">
+A:使用できますが、音楽素材を使用した動画をコンテンツID登録しないようお願い致します。
+コンテンツID登録されますと、同じ音楽素材を使用している他のユーザー様に著作権侵害の警告が出てしまいます。
+他のユーザー様に迷惑がかかりますので音楽素材を使用した作品はコンテンツID登録しないようお願いします。
+なお、YouTubeのポリシーに違反してる動画には使用できません。<br />
+</div>
+
+<div class="faq_q">
+Q:YouTubeで使用したところ「第三者のコンテンツと一致しました」という警告が届きました。
+</div>
+<div class="faq_a">
+YouTubeでは上記の原因でフリー素材を使用しているにもかかわらず著作権保護の警告を受ける場合があります。
+警告が届いた場合は動画サイトの手順に従って異議申し立てをしていただくようお願い致します。<br />
+<b>異議申し立てが却下されるケースがあったため、異議申し立ては、ご利用者様のご判断でお願いいたします。</b>
+</div>
+
+<div class="faq_q">
+Q:年齢制限のある作品で使ってもいいですか？
+</div>
+<div class="faq_a">
+A:商用・非商用問わず年齢制限のある作品でも使用可能です。
+</div>
+
+<div class="faq_q">
+Q:お店のBGMとして使っても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。
+お店のBGMとしての使用は2次配布と見なしませんのでご利用いただけます。
+他にもイベント、演劇、読み聞かせのBGMとしてもご利用いただけます。
+</div>
+
+<div class="faq_q">
+Q:アレンジして演奏しても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。ただし、当サイトの楽曲をアレンジしたものであると分かるように著作権表示をしてください。
+</div>
+
+<div class="faq_q">
+Q:歌詞を付けて歌っても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。
+</div>
+
+<div class="faq_q">
+Q:作曲（編曲）の依頼をしたいのですが・・・
+</div>
+<div class="faq_a">
+A:現在、作曲・編曲の依頼は受け付けておりません。
+</div>
+
+<div class="faq_q">
+Q:MP3以外の形式はないのですか？
+</div>
+<div class="faq_a">
+A:申し訳ありませんが、MP3(128Kbps)のみとなっております。
+</div>
+
+<div class="faq_q">
+Q:mp3のファイル名やファイル形式を変更しても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。ご都合の良いファイル名、ファイル形式に変更してお使い下さい。
+</div>
+
+<div class="faq_q">
+Q:ダウンロードできないので録音して使用しても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。
+</div>
+
+<div class="faq_q">
+Q:昔あった曲がなくなっている（又は、アレンジが変わっている）のですが・・・
+</div>
+<div class="faq_a">
+A:音楽素材やコンテンツは予告無しに変更・削除されることがあります。ご了承下さい。
+</div>
+
+<div class="faq_q">
+Q:「秋」というタイトルの楽曲を「春」の動画に使っても良いですか？
+</div>
+<div class="faq_a">
+A:問題ありません。
+</div>
+
+<hr />
+
+<div class="headline">免責事項</div>
+
+<div class="text_2">
+●ご利用の際に生じたいかなる損害損失に対しても当サイトは一切責任を負いません。<br />
+●当サイトの音楽素材やコンテンツは予告無しに変更・削除されることがあります。<br />
+●この利用規約は予告なく改定されることがあります。
+</div>
+
+<hr />
+
+<div class="sponsor_336x280_2">
+スポンサードリンク<br />
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4265926558955212"
+     crossorigin="anonymous"></script>
+<!-- amacha_336x280 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-4265926558955212"
+     data-ad-slot="2387441231"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+</div>
+ 
+</div>
+ 
+</div>
+ 
+<div class="r_sidebar">
+
+<h4>サイト内検索</h4>
+<div class="search_box">
+<script async src='https://cse.google.com/cse.js?cx=partner-pub-4265926558955212:5322730840'></script><div class="gcse-searchbox-only"></div>
+</div>
+
+<div class="side_box">
+<h4>こちらのサイトも運営しています</h4>
+<div class="pr">
+<a href="http://nostalgiamusic.info/">フリー音楽素材_ノスタルジア</a><br />
+<a href="http://nostalgiamusic.info/"><img height="150" alt="フリー音楽素材『ノスタルジア』" src="img/nostalgia.png" width="240" border="0" /></a>
+</div>
+</div>
+
+<div class="side_box">
+<h4>スポンサードリンク</h4>
+<div class="sponsor_300x600">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4265926558955212"
+     crossorigin="anonymous"></script>
+<!-- 甘茶_縦長タイプ -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-4265926558955212"
+     data-ad-slot="1243800494"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+
+</div>
+ 
+<div class="footer">
+
+<div id="copy">
+Copyright (C) <script language="javascript" type="text/javascript">document.write(new Date().getFullYear())</script> <a href="./">WEB・動画・ゲーム・アプリ・ラジオに使えるフリー音楽素材『甘茶の音楽工房』</a>. All Rights Reserved.
+</div>
+
+</div>
+
+</div>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"1b464aad4cb14e2ea25b2030f823e83c","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a459e770c9aed756',t:'MTc5MTE3Njg2MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

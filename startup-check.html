@@ -1,0 +1,23 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>重建候选资源核验</title><style>body{font:16px/1.6 system-ui;max-width:960px;margin:28px auto;padding:0 20px;background:#f5f7f8;color:#243b43}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:white;padding:18px;border:1px solid #ccd6db}button{font:inherit;padding:10px 18px}canvas{display:none}</style><h1>重建候选资源核验</h1><p>验证全部文件、官方引擎初始化和7个包载入。不能替代GPU画面、输入、听音或Web存档验收。</p><button id="run">开始核验</button><pre id="result">尚未运行</pre><canvas id="canvas" width="720" height="1280"></canvas><p><a href="./">打开重建候选</a></p><script src="index.js"></script><script>
+const output=document.getElementById('result');
+document.getElementById('run').onclick=async()=>{
+ const button=document.getElementById('run');button.disabled=true;
+ const state={stage:'checking',assets:[],packs:[],engineInit:'PENDING',gpuRendered:false,logs:[]};
+ const show=()=>output.textContent=JSON.stringify(state,null,2);show();
+ try{
+  const release=await(await fetch('release-manifest.json',{cache:'no-store'})).json();
+  state.sourceSnapshot=release.source_snapshot_sha256;
+  for(const [path,spec] of Object.entries(release.current_files || release.original_files)){
+   state.stage='hashing '+path;show();const response=await fetch(path,{cache:'no-store'});if(!response.ok)throw Error(path+' HTTP '+response.status);
+   const data=await response.arrayBuffer();const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data))).map(x=>x.toString(16).padStart(2,'0')).join('');
+   const pass=data.byteLength===spec.bytes&&hash===spec.sha256;state.assets.push({path,httpStatus:response.status,contentEncoding:response.headers.get('content-encoding'),contentLength:response.headers.get('content-length'),cacheControl:response.headers.get('cache-control'),bytes:data.byteLength,sha256:hash,contentType:response.headers.get('content-type'),status:pass?'PASS':'FAIL'});show();if(!pass)throw Error(path+' mismatch');
+  }
+  state.missingGameFeatures=Engine.getMissingFeatures({threads:false});state.stage='initializing official runtime';show();
+  const engine=new Engine({executable:'index',canvas:document.getElementById('canvas'),canvasResizePolicy:0,onPrint:(...v)=>{state.logs.push(v.join(' '));show()},onPrintError:(...v)=>{state.logs.push('ERROR '+v.join(' '));show()}});
+  await engine.init('index');state.engineInit='PASS';show();
+  const manifest=await(await fetch('resource_packs.host.json',{cache:'no-store'})).json();
+  for(const spec of Object.values(manifest.packs)){state.stage='preloading '+spec.path;show();await engine.preloadFile(spec.path,spec.path);state.packs.push({path:spec.path,bytes:spec.bytes,status:'PASS'});show()}
+  state.stage=state.missingGameFeatures.length?'FILES_AND_INIT_PASS_GPU_BLOCKED':'FILES_AND_INIT_PASS_GPU_NOT_YET_RENDERED';show();
+ }catch(error){state.stage='FAIL';state.error=String(error);show()}finally{button.disabled=false}
+};
+</script></html>

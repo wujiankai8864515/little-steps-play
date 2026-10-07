@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "profile": "web",
+  "group_to_pack": {
+    "core_code": "core",
+    "shared_boot_ui": "core",
+    "loading": "core",
+    "login": "entry",
+    "home": "house",
+    "comic": "comic",
+    "darkroom": "darkroom",
+    "shared_room_visual": "exterior",
+    "travel_visual": "travel",
+    "outfit_visual": "outfit",
+    "wardrobe_visual": "wardrobe",
+    "photo_visual": "photo",
+    "departure_visual": "departure"
+  },
+  "mount_order": [
+    "core",
+    "comic",
+    "exterior",
+    "darkroom",
+    "entry",
+    "house",
+    "departure",
+    "travel",
+    "outfit",
+    "wardrobe",
+    "photo"
+  ],
+  "groups": {
+    "core_code": {
+      "depends_on": [],
+      "priority": 100,
+      "readiness": "boot"
+    },
+    "shared_boot_ui": {
+      "depends_on": [],
+      "priority": 100,
+      "readiness": "boot"
+    },
+    "loading": {
+      "depends_on": [
+        "core_code",
+        "shared_boot_ui"
+      ],
+      "priority": 100,
+      "readiness": "first_draw"
+    },
+    "login": {
+      "depends_on": [
+        "core_code",
+        "shared_boot_ui"
+      ],
+      "priority": 90,
+      "readiness": "whole_page_first_draw"
+    },
+    "home": {
+      "depends_on": [
+        "core_code",
+        "shared_boot_ui",
+        "shared_room_visual"
+      ],
+      "priority": 60,
+      "readiness": "whole_page_first_draw"
+    },
+    "comic": {
+      "depends_on": [
+        "core_code",
+        "shared_boot_ui"
+      ],
+      "priority": 85,
+      "readiness": "single_comic_paper_native_bubbles_short_audio_tree_and_first_draw"
+    },
+    "darkroom": {
+      "depends_on": [
+        "core_code",
+        "shared_boot_ui",
+        "shared_room_visual"
+      ],
+      "priority": 55,
+      "readiness": "whole_page_first_draw"
+    },
+    "shared_room_visual": {
+      "depends_on": [
+        "core_code"
+      ],
+      "priority": 65,
+      "readiness": "shared_exterior_texture_and_shader_includes"
+    },
+    "travel_visual": {
+      "depends_on": [
+        "core_code",
+        "home",
+        "departure_visual"
+      ],
+      "priority": 60,
+      "readiness": "on_demand_travel_page_assets_only"
+    },
+    "photo_visual": {
+      "depends_on": [
+        "core_code"
+      ],
+      "priority": 40,
+      "readiness": "on_demand"
+    },
+    "departure_visual": {
+      "depends_on": [
+        "core_code",
+        "shared_room_visual"
+      ],
+      "priority": 60,
+      "readiness": "after_confirmed_departure_only"
+    },
+    "wardrobe_visual": {
+      "depends_on": [
+        "core_code",
+        "outfit_visual"
+      ],
+      "priority": 40,
+      "readiness": "on_demand"
+    },
+    "outfit_visual": {
+      "depends_on": [
+        "core_code"
+      ],
+      "priority": 40,
+      "readiness": "on_demand"
+    }
+  },
+  "packs": {
+    "comic": {
+      "path": "packs/comic.pck",
+      "startup": false,
+      "groups": [
+        "comic"
+      ],
+      "depends_on": [
+        "core"
+      ],
+      "bytes": 2316192,
+      "sha256": "f72208240d0c59baf30501cf26bdfb6db9f17f2f4d167dcccaba23e48f3610d4"
+    },
+    "core": {
+      "path": "index.pck",
+      "startup": true,
+      "groups": [
+        "core_code",
+        "loading",
+        "shared_boot_ui"
+      ],
+      "depends_on": [],
+      "bytes": 2291928,
+      "sha256": "4916d735cd15fe63045af866ccd1e4096c5401c8acc1122de35347236d8460d1"
+    },
+    "darkroom": {
+      "path": "packs/darkroom.pck",
+      "startup": false,
+      "groups": [
+        "darkroom"
+      ],
+      "depends_on": [
+        "core",
+        "exterior"
+      ],
+      "bytes": 4396188,
+      "sha256": "383cc5b7b3353952d63507b639eedfe173086925c7f63455ed63a0591bc1531e"
+    },
+    "entry": {
+      "path": "packs/entry.pck",
+      "startup": false,
+      "groups": [
+        "login"
+      ],
+      "depends_on": [
+        "core"
+      ],
+      "bytes": 943108,
+      "sha256": "7cde5f604dd0fb064144fdaad0de628ce1bb6803a13ba1c98be79d37a9d2b5c5"
+    },
+    "exterior": {
+      "path": "packs/exterior.pck",
+      "startup": false,
+      "groups": [
+        "shared_room_visual"
+      ],
+      "depends_on": [
+        "core"
+      ],
+      "bytes": 1494444,
+      "sha256": "507033763109282e91d7f19f399882a10585045cfa8e413f5275ffbf58a9ea51"
+    },
+    "house": {
+      "path": "packs/house.pck",
+      "startup": false,
+      "groups": [
+        "home"
+      ],
+      "depends_on": [
+        "core",
+        "exterior"
+      ],
+      "bytes": 17024952,
+      "sha256": "9acf3b150dafdc05600a31e208180d539b7db1e64a418cc4aaa54f5ca6effd98"
+    },
+    "travel": {
+      "path": "packs/travel.pck",
+      "startup": false,
+      "groups": [
+        "travel_visual"
+      ],
+      "depends_on": [
+        "core",
+        "house",
+        "departure"
+      ],
+      "bytes": 13874440,
+      "sha256": "c6fe0c747d64aabde17cd6e638adf276b065376632c7a369b67b0a302051e442"
+    },
+    "outfit": {
+      "path": "packs/outfit.pck",
+      "startup": false,
+      "groups": [
+        "outfit_visual"
+      ],
+      "depends_on": [
+        "core"
+      ],
+      "bytes": 281448,
+      "sha256": "10059ddbd0633275ae869a47e4617458853343f232600de6e4aef882837eceee"
+    },
+    "wardrobe": {
+      "path": "packs/wardrobe.pck",
+      "startup": false,
+      "groups": [
+        "wardrobe_visual"
+      ],
+      "depends_on": [
+        "core",
+        "outfit"
+      ],
+      "bytes": 2027864,
+      "sha256": "c12702ca738604778db4621d47e9591ed112761682fbcd8ccf5c9588075749d2"
+    },
+    "photo": {
+      "path": "packs/photo.pck",
+      "startup": false,
+      "groups": [
+        "photo_visual"
+      ],
+      "depends_on": [
+        "core"
+      ],
+      "bytes": 2754084,
+      "sha256": "82a166ec2608c23f3185b65851c39ea89457cdae40053f70cf7d6d1ed69d8512"
+    },
+    "departure": {
+      "path": "packs/departure.pck",
+      "startup": false,
+      "groups": [
+        "departure_visual"
+      ],
+      "depends_on": [
+        "core",
+        "exterior"
+      ],
+      "bytes": 1203888,
+      "sha256": "f30dec5877699d582981562af4d9c87a1e3d9d706576455f0b3c7827f76692ee"
+    }
+  }
+}

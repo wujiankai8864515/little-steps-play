@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "snapshots": [
+    {
+      "file": "amacha-terms-20261005.html.txt",
+      "url": "https://amachamusic.chagasi.com/terms.html",
+      "checked_at": "2026-10-05",
+      "capture_method": "original_html_saved_as_inactive_text",
+      "bytes": 16703,
+      "sha256": "e09681beb2e9845e6e6acf106e8d7f0d11d297bf79b9220a9a6ed1da825ef14b"
+    },
+    {
+      "file": "soundimage-license-20261005.txt",
+      "url": "https://soundimage.org/sample-page/",
+      "checked_at": "2026-10-05",
+      "capture_method": "official_page_readable_text_extraction",
+      "bytes": 15231,
+      "sha256": "8ddec85a53d8ef108a98efa17a33b60dc184c381ab1228e85f385d732eb17dce"
+    },
+    {
+      "file": "soundimage-attribution-20261005.txt",
+      "url": "https://soundimage.org/attribution-info/",
+      "checked_at": "2026-10-05",
+      "capture_method": "official_page_readable_text_extraction",
+      "bytes": 2454,
+      "sha256": "b368375707be9f7538c9a98093d09047a98b6ae2e41d7ca5330a06237e18ecee"
+    }
+  ],
+  "note": "Soundimage direct HTML requests returned HTTP 406; readable official-page text was available through the web reader. Text extraction is not an exact HTML byte snapshot. Music grants remain those of the linked licensors."
+}

@@ -1,0 +1,167 @@
+{
+  "release": "woodfish-production-c9a2b1c9cd1b",
+  "source_commit": "6327bdbd7505e473f256a106c3bd00ba72815d6f",
+  "source_tree_dirty": false,
+  "source_snapshot_sha256": "c9a2b1c9cd1b8eabd9caf46018767a99ff90624c1ac2a219a0b41e2e937c0112",
+  "production_inventory_sha256": "6c426f49cee4c5aef899db050abceca5344a3dfb2dec9084447a37039e8a3cf1",
+  "original_reference_only": "fa1e74ca277bdbb66c61b7caefdb7d45e367599c",
+  "engine_sha256": "5803746bbe055bee0f07a3c5b0dd347719bd45599f3d34519a8a0beaf83014ae",
+  "template_sha256": "5f202410b79f15d31bfef4c434ee7b7bcc964b50a587bb1338cb53ad9d94c61b",
+  "status": "OFFLINE_CANDIDATE_BROWSER_GPU_PENDING",
+  "product_fixes_applied": true,
+  "published": false,
+  "raw_files_unchanged": false,
+  "official_runtime_matches_original": [
+    {
+      "path": "index.js",
+      "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f",
+      "matches_original_official_runtime": true
+    },
+    {
+      "path": "index.wasm",
+      "sha256": "6ead2ac528d007fe9627aae650444f9187f89420d7603c22460d8f3279545240",
+      "matches_original_official_runtime": true
+    },
+    {
+      "path": "index.audio.worklet.js",
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "matches_original_official_runtime": true
+    },
+    {
+      "path": "index.audio.position.worklet.js",
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "matches_original_official_runtime": true
+    }
+  ],
+  "current_files": {
+    "host/actor_loading.js": {
+      "bytes": 8185,
+      "sha256": "95ed251d88ca2301d30967b52408d0a2e94782802f46a49f802bf7fd51b8d96a"
+    },
+    "host/assets/compact/actor_body.png": {
+      "bytes": 36824,
+      "sha256": "4b611ee4729dff0a77eee87c1e42b9378c66dfa28a7d7cdaeaf0828a710b6055"
+    },
+    "host/assets/compact/actor_fin_mallet.png": {
+      "bytes": 8289,
+      "sha256": "4df47f48edfe02ea34c9c940a3c265ec5905fb9c7278140a27c2d738382978c4"
+    },
+    "host/assets/compact/doll_rig.png": {
+      "bytes": 91342,
+      "sha256": "7bcc6cbb1efa0b929df5ee5ec654a233215f86de24e3031c7ccbda544cf0a678"
+    },
+    "host/preboot.js": {
+      "bytes": 17664,
+      "sha256": "f014fb629017080c8f0db45e68618860dc598b690fddcfa1ae54b7080e3bc7ad"
+    },
+    "host/resource_transport.js": {
+      "bytes": 10237,
+      "sha256": "d5eeded650d16377f7c07f9f64d21e9e185965353221a8efe7090b538f861ba0"
+    },
+    "host/viewport.js": {
+      "bytes": 5344,
+      "sha256": "faaea11e0862cee77b8d68ab0fdcd078cea95683931a9b4c6bb8c41d2f7d7736"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 75129,
+      "sha256": "ad538e951315a1766b36f1aff9c93f1329dc0a2abfae07cdac25793063929a5d"
+    },
+    "index.js": {
+      "bytes": 305185,
+      "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
+    },
+    "index.pck": {
+      "bytes": 2291928,
+      "sha256": "4916d735cd15fe63045af866ccd1e4096c5401c8acc1122de35347236d8460d1"
+    },
+    "index.png": {
+      "bytes": 41981,
+      "sha256": "00420fd23d465b53b309443fd7941d783b1a843243fe209032a2d91ef1b174a6"
+    },
+    "index.wasm": {
+      "bytes": 38047590,
+      "sha256": "6ead2ac528d007fe9627aae650444f9187f89420d7603c22460d8f3279545240"
+    },
+    "licenses/LXGWWenKai-OFL.txt": {
+      "bytes": 4448,
+      "sha256": "c38b1994a5e48ac30ac7d1da7d0409fd8fd8127dfe28a13d6e787d5b1ef34a5e"
+    },
+    "licenses/MaShanZheng-OFL.txt": {
+      "bytes": 4397,
+      "sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08"
+    },
+    "licenses/Noto-CJK-LICENSE.txt": {
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    "licenses/music/amacha-terms-20261005.html.txt": {
+      "bytes": 16703,
+      "sha256": "e09681beb2e9845e6e6acf106e8d7f0d11d297bf79b9220a9a6ed1da825ef14b"
+    },
+    "licenses/music/snapshots.json": {
+      "bytes": 1241,
+      "sha256": "2ee6e86e112670afa7db1fd86ff5d42934c978111e4f7c35fba2ba21d5231bd5"
+    },
+    "licenses/music/soundimage-attribution-20261005.txt": {
+      "bytes": 2454,
+      "sha256": "b368375707be9f7538c9a98093d09047a98b6ae2e41d7ca5330a06237e18ecee"
+    },
+    "licenses/music/soundimage-license-20261005.txt": {
+      "bytes": 15231,
+      "sha256": "8ddec85a53d8ef108a98efa17a33b60dc184c381ab1228e85f385d732eb17dce"
+    },
+    "packs/comic.pck": {
+      "bytes": 2316192,
+      "sha256": "f72208240d0c59baf30501cf26bdfb6db9f17f2f4d167dcccaba23e48f3610d4"
+    },
+    "packs/darkroom.pck": {
+      "bytes": 4396188,
+      "sha256": "383cc5b7b3353952d63507b639eedfe173086925c7f63455ed63a0591bc1531e"
+    },
+    "packs/departure.pck": {
+      "bytes": 1203888,
+      "sha256": "f30dec5877699d582981562af4d9c87a1e3d9d706576455f0b3c7827f76692ee"
+    },
+    "packs/entry.pck": {
+      "bytes": 943108,
+      "sha256": "7cde5f604dd0fb064144fdaad0de628ce1bb6803a13ba1c98be79d37a9d2b5c5"
+    },
+    "packs/exterior.pck": {
+      "bytes": 1494444,
+      "sha256": "507033763109282e91d7f19f399882a10585045cfa8e413f5275ffbf58a9ea51"
+    },
+    "packs/house.pck": {
+      "bytes": 17024952,
+      "sha256": "9acf3b150dafdc05600a31e208180d539b7db1e64a418cc4aaa54f5ca6effd98"
+    },
+    "packs/outfit.pck": {
+      "bytes": 281448,
+      "sha256": "10059ddbd0633275ae869a47e4617458853343f232600de6e4aef882837eceee"
+    },
+    "packs/photo.pck": {
+      "bytes": 2754084,
+      "sha256": "82a166ec2608c23f3185b65851c39ea89457cdae40053f70cf7d6d1ed69d8512"
+    },
+    "packs/travel.pck": {
+      "bytes": 13874440,
+      "sha256": "c6fe0c747d64aabde17cd6e638adf276b065376632c7a369b67b0a302051e442"
+    },
+    "packs/wardrobe.pck": {
+      "bytes": 2027864,
+      "sha256": "c12702ca738604778db4621d47e9591ed112761682fbcd8ccf5c9588075749d2"
+    },
+    "resource_packs.host.json": {
+      "bytes": 6011,
+      "sha256": "703fd42f1bfa1efac78dba317ef855bdae66237a5500649b145020d6f1f0ae52"
+    }
+  },
+  "web_memory_measured": false
+}
