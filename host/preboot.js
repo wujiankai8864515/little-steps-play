@@ -197,9 +197,8 @@ function close() {fail(new Error('启动页面已关闭。'),true);}
 async function revealIfReady() {
 if (!engineStarted || !gameReady || !loginReady || failed || revealing || overlay.hidden) return;
 revealing = true;
-while (getLoadingElapsedMsec() < 1000) {await paintFrame();if(failed)return;}
 ledger.complete = true;
-metrics.minimum_loading_visible_msec = getLoadingElapsedMsec();
+metrics.loading_visible_msec = getLoadingElapsedMsec();
 stage('login_ready','准备完成');
 await waitForPaint();
 if (failed) return;
@@ -267,6 +266,9 @@ if (window.TRAVEL_HOST_SCRIPT_FAILED) throw new Error('启动文件加载失败�
 if (!config || !config.godot || !window.TravelResourceTransport) throw new Error('启动配置或资源传输脚本缺失。');
 if (!window.TravelHostActor) throw new Error('启动动效脚本缺失。');
 actor = window.TravelHostActor.create(window,document,document.getElementById('host-poster'));
+// Prepare the same actor serially, while necessary manifest/engine-JS IO runs.
+// Keep the painted actor gate before heavy WASM/core startup.
+const actorReady = (async () => {
 await actor.start();
 if (failed) return;
 metrics.actor_decode_settled_ms = now();
@@ -275,6 +277,9 @@ if (actorCanvas && actorCanvas.style) actorCanvas.style.visibility = 'visible';
 if (poster) poster.hidden = true;
 await waitForPaint();
 metrics.paint_opportunity_ms = now();
+})();
+// Observe early actor failure immediately, even while awaiting network IO.
+actorReady.catch(fail);
 if (failed) return;
 stage('manifest', '正在读取资源目录…');
 bootAbort = new window.AbortController();
@@ -287,11 +292,15 @@ cache: 'no-cache', credentials: 'same-origin', redirect: 'error', signal: bootAb
 if (failed) return;
 const groups = window.TravelResourceTransport.validateManifest(manifest);
 const core = Array.from(groups.values()).find(pack => pack.startup);
+const coreURL = new URL(core.path, base);
+if (coreURL.origin !== base.origin) throw new Error('启动资源必须与游戏同源。');
+coreURL.searchParams.set('sha256', core.sha256);
 ledger = startupLedger(manifest,config,groups);
 if (!window.crypto || !window.crypto.subtle) throw new Error('资源完整性校验需要安全上下文中的 Web Crypto。');
 const engineConfig = Object.assign({}, config.godot, {
 mainPack: core.path, canvas,
-fileSizes: Object.assign({}, config.godot.fileSizes || {}, {[core.path]: core.bytes}),
+args: ['--main-pack', core.path].concat(config.godot.args || []),
+fileSizes: Object.assign({}, config.godot.fileSizes || {}, {[core.path]: core.bytes, [coreURL.href]: core.bytes}),
 onProgress, onPrintError,
 onExit: code => fail(new Error('游戏运行已结束（代码 ' + code + '）。'))
 });
@@ -302,6 +311,8 @@ if (engineURL.origin !== base.origin) throw new Error('引擎脚本必须与游�
 if (config.cacheRevision) engineURL.searchParams.set('host_revision', config.cacheRevision);
 await loadEngineScript(engineURL.href);
 metrics.engine_script_ready_ms = now();
+if (failed) return;
+await actorReady;
 if (failed) return;
 if (typeof window.Engine !== 'function') throw new Error('引擎脚本缺少官方 Engine 接口。');
 const missing = window.Engine.getMissingFeatures({threads: config.threads});
@@ -320,7 +331,11 @@ metrics.engine_start_begin_ms = now();
 observeStartupFailures(engineURL.href);
 const firstDraw = new Promise((resolve, reject) => { resolveFirstDraw = resolve; rejectFirstDraw = reject; });
 firstDraw.catch(() => {});
-await engine.startGame();
+// Official 4.5.2 startGame preloads its URL as its FS destination. Use the
+// public split API to version HTTP identity while keeping --main-pack canonical.
+await Promise.all([engine.init(config.godot.executable), engine.preloadFile(coreURL.href, core.path)]);
+if (failed) return;
+await engine.start();
 metrics.engine_started_ms = now();
 if (failed) return;
 engineStarted = true;

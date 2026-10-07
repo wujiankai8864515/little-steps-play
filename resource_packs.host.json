@@ -151,8 +151,8 @@
         "shared_boot_ui"
       ],
       "depends_on": [],
-      "bytes": 2291928,
-      "sha256": "4916d735cd15fe63045af866ccd1e4096c5401c8acc1122de35347236d8460d1"
+      "bytes": 2308476,
+      "sha256": "86afd0ad53ab72d6d1cc008564e7fa9acba24462b31c4c76105b2fc5472c6a93"
     },
     "darkroom": {
       "path": "packs/darkroom.pck",
@@ -201,8 +201,8 @@
         "core",
         "exterior"
       ],
-      "bytes": 17024952,
-      "sha256": "9acf3b150dafdc05600a31e208180d539b7db1e64a418cc4aaa54f5ca6effd98"
+      "bytes": 17026424,
+      "sha256": "91c7c40ed4701d59b026708450cd3231bb3c1fe6f94f72258da48d771ca53e16"
     },
     "travel": {
       "path": "packs/travel.pck",
@@ -215,8 +215,8 @@
         "house",
         "departure"
       ],
-      "bytes": 13874440,
-      "sha256": "c6fe0c747d64aabde17cd6e638adf276b065376632c7a369b67b0a302051e442"
+      "bytes": 13877768,
+      "sha256": "1fbf979523b30c30b7482b4e75bd8ead16b306d6a2bf100ed689aee124d04bc7"
     },
     "outfit": {
       "path": "packs/outfit.pck",

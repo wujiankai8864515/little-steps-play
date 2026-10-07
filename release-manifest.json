@@ -1,9 +1,9 @@
 {
-  "release": "woodfish-production-c9a2b1c9cd1b",
-  "source_commit": "6327bdbd7505e473f256a106c3bd00ba72815d6f",
+  "release": "woodfish-production-bca6020c835c",
+  "source_commit": "5c37fb30fe088e998c414ed32a3e26fb551c2689",
   "source_tree_dirty": false,
-  "source_snapshot_sha256": "c9a2b1c9cd1b8eabd9caf46018767a99ff90624c1ac2a219a0b41e2e937c0112",
-  "production_inventory_sha256": "6c426f49cee4c5aef899db050abceca5344a3dfb2dec9084447a37039e8a3cf1",
+  "source_snapshot_sha256": "bca6020c835ca69de74dc2ae514b31cd7377cd439592a30d979bc84d551a53f6",
+  "production_inventory_sha256": "1d5171877b6efe9f7d43d5d7e5f12cd8d3ebb72df7fd6f108d9601e960d9068b",
   "original_reference_only": "fa1e74ca277bdbb66c61b7caefdb7d45e367599c",
   "engine_sha256": "5803746bbe055bee0f07a3c5b0dd347719bd45599f3d34519a8a0beaf83014ae",
   "template_sha256": "5f202410b79f15d31bfef4c434ee7b7bcc964b50a587bb1338cb53ad9d94c61b",
@@ -51,8 +51,8 @@
       "sha256": "7bcc6cbb1efa0b929df5ee5ec654a233215f86de24e3031c7ccbda544cf0a678"
     },
     "host/preboot.js": {
-      "bytes": 17664,
-      "sha256": "f014fb629017080c8f0db45e68618860dc598b690fddcfa1ae54b7080e3bc7ad"
+      "bytes": 18455,
+      "sha256": "df385c65c755fe3351453e184f20883659799547c4260b12da63702f78c18d21"
     },
     "host/resource_transport.js": {
       "bytes": 10237,
@@ -71,16 +71,16 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 75129,
-      "sha256": "ad538e951315a1766b36f1aff9c93f1329dc0a2abfae07cdac25793063929a5d"
+      "bytes": 75215,
+      "sha256": "6e8404e3040cf97b39713f8137849c4bae8d7c3e2307304f4159129148b8563d"
     },
     "index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "index.pck": {
-      "bytes": 2291928,
-      "sha256": "4916d735cd15fe63045af866ccd1e4096c5401c8acc1122de35347236d8460d1"
+      "bytes": 2308476,
+      "sha256": "86afd0ad53ab72d6d1cc008564e7fa9acba24462b31c4c76105b2fc5472c6a93"
     },
     "index.png": {
       "bytes": 41981,
@@ -139,8 +139,8 @@
       "sha256": "507033763109282e91d7f19f399882a10585045cfa8e413f5275ffbf58a9ea51"
     },
     "packs/house.pck": {
-      "bytes": 17024952,
-      "sha256": "9acf3b150dafdc05600a31e208180d539b7db1e64a418cc4aaa54f5ca6effd98"
+      "bytes": 17026424,
+      "sha256": "91c7c40ed4701d59b026708450cd3231bb3c1fe6f94f72258da48d771ca53e16"
     },
     "packs/outfit.pck": {
       "bytes": 281448,
@@ -151,8 +151,8 @@
       "sha256": "82a166ec2608c23f3185b65851c39ea89457cdae40053f70cf7d6d1ed69d8512"
     },
     "packs/travel.pck": {
-      "bytes": 13874440,
-      "sha256": "c6fe0c747d64aabde17cd6e638adf276b065376632c7a369b67b0a302051e442"
+      "bytes": 13877768,
+      "sha256": "1fbf979523b30c30b7482b4e75bd8ead16b306d6a2bf100ed689aee124d04bc7"
     },
     "packs/wardrobe.pck": {
       "bytes": 2027864,
@@ -160,7 +160,7 @@
     },
     "resource_packs.host.json": {
       "bytes": 6011,
-      "sha256": "703fd42f1bfa1efac78dba317ef855bdae66237a5500649b145020d6f1f0ae52"
+      "sha256": "97a150399535f3e9fafc23ea2e18e47aedc2fec9dabba78544a2df970ef64acb"
     }
   },
   "web_memory_measured": false
