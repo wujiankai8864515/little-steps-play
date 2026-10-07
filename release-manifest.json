@@ -1,9 +1,9 @@
 {
-  "release": "woodfish-production-bca6020c835c",
-  "source_commit": "5c37fb30fe088e998c414ed32a3e26fb551c2689",
+  "release": "woodfish-production-6871179852c3",
+  "source_commit": "a0237fa78982b9df5732558a67a0630ec73abe93",
   "source_tree_dirty": false,
-  "source_snapshot_sha256": "bca6020c835ca69de74dc2ae514b31cd7377cd439592a30d979bc84d551a53f6",
-  "production_inventory_sha256": "1d5171877b6efe9f7d43d5d7e5f12cd8d3ebb72df7fd6f108d9601e960d9068b",
+  "source_snapshot_sha256": "6871179852c38ab9bbd83fe20f8fc1a3b3219d8d407523af7a1caba7999b9e72",
+  "production_inventory_sha256": "c59fc1b179b75f836ae824d1d89661322fb994c40177b3eff190da353d61b3a8",
   "original_reference_only": "fa1e74ca277bdbb66c61b7caefdb7d45e367599c",
   "engine_sha256": "5803746bbe055bee0f07a3c5b0dd347719bd45599f3d34519a8a0beaf83014ae",
   "template_sha256": "5f202410b79f15d31bfef4c434ee7b7bcc964b50a587bb1338cb53ad9d94c61b",
@@ -72,15 +72,15 @@
     },
     "index.html": {
       "bytes": 75215,
-      "sha256": "6e8404e3040cf97b39713f8137849c4bae8d7c3e2307304f4159129148b8563d"
+      "sha256": "3484e83ba154db7a3006ec51d79f69b6d81f5b5174b528122076cdf8f09ec884"
     },
     "index.js": {
       "bytes": 305185,
       "sha256": "8a7c7d57f7da69bb71da9de302480b87e4c7ecb467ce643665b4a288683cd18f"
     },
     "index.pck": {
-      "bytes": 2308476,
-      "sha256": "86afd0ad53ab72d6d1cc008564e7fa9acba24462b31c4c76105b2fc5472c6a93"
+      "bytes": 2314516,
+      "sha256": "c25b9875517a95f0fe97c09e7cbcb72ed2010619200950c23558a4b1e421040c"
     },
     "index.png": {
       "bytes": 41981,
@@ -160,7 +160,7 @@
     },
     "resource_packs.host.json": {
       "bytes": 6011,
-      "sha256": "97a150399535f3e9fafc23ea2e18e47aedc2fec9dabba78544a2df970ef64acb"
+      "sha256": "3b3340960272b4670794d42ff540fab35ee7716f1d7018868e17bd9b3bfa1771"
     }
   },
   "web_memory_measured": false

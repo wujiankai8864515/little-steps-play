@@ -151,8 +151,8 @@
         "shared_boot_ui"
       ],
       "depends_on": [],
-      "bytes": 2308476,
-      "sha256": "86afd0ad53ab72d6d1cc008564e7fa9acba24462b31c4c76105b2fc5472c6a93"
+      "bytes": 2314516,
+      "sha256": "c25b9875517a95f0fe97c09e7cbcb72ed2010619200950c23558a4b1e421040c"
     },
     "darkroom": {
       "path": "packs/darkroom.pck",
